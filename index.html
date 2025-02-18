@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status Display</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main>
+    <div id="status-container">
+      <div>
+        <h2><span style="font-size: 13px;">AION Mission Control</span></h2>
+        <p><strong>Status:</strong> <span style="color: black; font-size: 13px;" id="missionControl-status-display"></span></p>
+        <p><strong>Message:</strong> <span style="font-size: 13px;" id="missionControl-text-display"></span></p>
+      </div>
+    </div>
+  </main>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+  <script type="module" src="firebaseConfig.js"></script>
+  <script type="module" src="firebaseService.js"></script>
+  <script type="module" src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+  font-family: Segoe UI;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  color: #000000;
+  text-align: center;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+main {
+  padding: 2px;
+}
+p {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+h2 {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.image-ts {
+  width: 80px;
+  height: 45px;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+
+#status-container {
+    display: grid; /* Switch to grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+    gap: 5px; /* Add space between the boxes */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Align the boxes vertically */
+    padding: 0; /* Optional padding for spacing inside the container */
+    margin: 0 auto; /* Center the container */
+}
+
+#status-container div {
+    padding: 0.5px; /* Space inside each box */
+    border: 1px solid #333; /* Box border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* Box background color */
+    box-sizing: border-box; /* Include border and padding in box size */
+    text-align: center; /* Center the text inside the boxes */
+}
+
+
+
+.status-indicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
